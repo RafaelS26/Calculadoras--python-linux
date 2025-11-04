@@ -1,0 +1,82 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = float(input(\"digite o primeiro numero: \"))\n",
+        "num2 = float(input(\"digite o segundo numero: \"))\n",
+        "\n",
+        "\n",
+        "print(\"\\n Escolha a operações:\")\n",
+        "print(\"1: Soma\")\n",
+        "print(\"2: Subtração\")\n",
+        "print(\"3: Multiplicação\")\n",
+        "print(\"4: divisão\")\n",
+        "\n",
+        "opcao = int(input(\"Digite sua opção (1/2/3/4)\\n\"))\n",
+        "\n",
+        "if opcao == 1:\n",
+        "    soma = (num1 + num2)\n",
+        "    print(\"resultado é\", soma)\n",
+        "\n",
+        "elif opcao == 2:\n",
+        "    subtracao = (num1 -num2)\n",
+        "    print(\"resultado é\", subtracao)\n",
+        "\n",
+        "elif opcao == 3:\n",
+        "    mult =(num1 * num2)\n",
+        "    print(\"resultado é\", mult)\n",
+        "\n",
+        "elif opcao == 4:\n",
+        "    div =(num1 / num2)\n",
+        "    print(\" resultado é\", div)\n",
+        "else:\n",
+        "    print(\"opção invalida\")\n",
+        "\n",
+        "\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eI9hShUjfd_s",
+        "outputId": "d0420a69-903c-477e-c0d1-8dd0a9c0f5e2"
+      },
+      "execution_count": 117,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o primeiro numero: 15\n",
+            "digite o segundo numero: 15\n",
+            "\n",
+            " Escolha a operações:\n",
+            "1: Soma\n",
+            "2: Subtração\n",
+            "3: Multiplicação\n",
+            "4: divisão\n",
+            "Digite sua opção (1/2/3/4)\n",
+            "4\n",
+            " resultado é 1.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
